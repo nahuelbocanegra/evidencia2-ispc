@@ -5,3 +5,6 @@ def listar_dispositivos():
 def buscar_dispositivos():
     pass
     
+def agregar_dispositivos():
+    pass
+
