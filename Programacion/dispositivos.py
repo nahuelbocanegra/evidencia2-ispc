@@ -8,3 +8,7 @@ def buscar_dispositivos():
 def agregar_dispositivos():
     pass
 
+    
+def eliminar_dispositivos():
+    pass
+    
