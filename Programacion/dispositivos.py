@@ -1,3 +1,5 @@
+dispositivos = {"cafetera", "microondas", "aire acondicionado"}
+
 
 def listar_dispositivos():
     pass
