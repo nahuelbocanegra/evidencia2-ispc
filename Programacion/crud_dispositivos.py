@@ -16,6 +16,13 @@ def buscar_dispositivos(dispositivo):
     
     
 def agregar_dispositivos(nuevo_dispositivo,listar_dispositivos):
-    pass
+
+    if  nuevo_dispositivo in dispositivos:
+       print(" ya se encuentra este dispositivo ")
+    else:
+        dispositivos[nuevo_dispositivo]={ }
+
+    listar_dispositivos()
+
 def eliminar_dispositivos(dispositivo_eliminado,listar_dispositivos):
     pass
