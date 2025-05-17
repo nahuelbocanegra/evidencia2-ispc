@@ -2,10 +2,10 @@
 
 while True:
 
-    print("1 - Listar")
-    print("2 - Buscar")
-    print("3 - Agregar")
-    print("4 - Eliminar")
+    print("1 - Listar dispositivo ")
+    print("2 - Buscar dispositivo ")
+    print("3 - Agregar dispositivo ")
+    print("4 - Eliminar dispositivo ")
     print("5 - Salir ")
 
     opcion = int(input("Elija una opcion:   "))
