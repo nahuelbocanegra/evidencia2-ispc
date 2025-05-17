@@ -24,5 +24,11 @@ def agregar_dispositivos(nuevo_dispositivo,listar_dispositivos):
 
     listar_dispositivos()
 
+
+
 def eliminar_dispositivos(dispositivo_eliminado,listar_dispositivos):
-    pass
+     
+    if dispositivo_eliminado in dispositivos:
+        del dispositivos[dispositivo_eliminado]
+    
+    listar_dispositivos()
