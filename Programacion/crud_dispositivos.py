@@ -5,7 +5,7 @@ def listar_dispositivos():
     print("Dispositivos disponibles: ")
 
     for nombre in dispositivos.keys():
-        print(f"  - {nombre}")
+        print(f"  - {nombre} ")
     
 def buscar_dispositivos(dispositivo):
    
@@ -23,8 +23,6 @@ def agregar_dispositivos(nuevo_dispositivo,listar_dispositivos):
         dispositivos[nuevo_dispositivo]={ }
 
     listar_dispositivos()
-
-
 
 def eliminar_dispositivos(dispositivo_eliminado,listar_dispositivos):
      
