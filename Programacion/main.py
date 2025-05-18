@@ -9,19 +9,25 @@ while True:
     print("5 - Salir \n")
 
 
-    opcion = int(input("Elija una opcion:   "))
-    
+    try:
+        opcion = int(input("Elija una opcion:   "))
+        
 
-    if opcion == 1:
-        listar_dispositivos()
-    if opcion == 2:
-        dispositivo=input("Ingrese el nombre de dispositivo: ")
-        buscar_dispositivos(dispositivo)
-    if opcion == 3:
-        dispositivo=input("Ingrese el nombre de dispositivo: ")
-        agregar_dispositivos()
-    if opcion == 4:
-        dispositivo=input("Ingrese el nombre de dispositivo: ")
-        eliminar_dispositivos()
-    if opcion == 5:
-        break
+        if opcion == 1:
+            listar_dispositivos()
+        elif opcion == 2:
+            dispositivo=input("Ingrese el nombre de dispositivo: ")
+            buscar_dispositivos(dispositivo)
+        elif opcion == 3:
+            dispositivo=input("Ingrese el nombre de dispositivo: ")
+            agregar_dispositivos()
+        elif opcion == 4:
+            dispositivo=input("Ingrese el nombre de dispositivo: ")
+            eliminar_dispositivos()
+        elif opcion == 5:
+            break
+        else:
+            print("por favor ingrese un numero del 1 al 5")
+
+    except:
+        print("Entrada no valida,por favor ingrese un numero del 1 al 5")
